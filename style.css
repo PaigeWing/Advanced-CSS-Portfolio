@@ -1,15 +1,43 @@
-.header {
-    background: rgb(21, 3, 33);
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-h1 {
+body {
+    background-color: #1c0d28;
+}
+
+
+.header {
+    background: black;
+    font-family:Garamond, 'Times New Roman', Times, serif;
+}
+
+.header h1 {
     color: #f7f4fa;
     font-size: 48px;
-    font-family:Garamond, 'Times New Roman', Times, serif
 }
 
+.header ul {
+    list-style-type: none;
+    float: right;
+}
+
+.header ul li {
+    font-size: 24px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+a {
+    color: #ceaee6;
+    text-decoration: none; 
+
+}
 .parent {
     position: relative;  
+
 }
 
 .flowers {
@@ -20,7 +48,7 @@ h1 {
 .self {
     width: 18%;
     position: absolute;
-    top: 80px;
+    top: 50px;
     left: 50px;
     border: 8px solid #ceaee6;
     border-style: double;
@@ -35,7 +63,6 @@ h1 {
     font-family:Garamond, 'Times New Roman', Times, serif
 }
 
-
 #surf {
     width: 65%;
     height: 500px;
@@ -45,3 +72,4 @@ h1 {
     width: 40%;
     height: 200px
 }
+
