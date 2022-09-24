@@ -4,19 +4,18 @@
     margin: 0;
 }
 
-body {
-    background-color: #1c0d28;
-}
-
-
 .header {
-    background: black;
-    font-family:Garamond, 'Times New Roman', Times, serif;
+    background: #ceaee6;  
+    line-height: 15px;
+    padding-top: 20px;
 }
 
 .header h1 {
-    color: #f7f4fa;
+    color: rgb(11, 1, 28);
     font-size: 48px;
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-left: 10px;
 }
 
 .header ul {
@@ -28,16 +27,16 @@ body {
     font-size: 24px;
     display: inline-block;
     padding-bottom: 10px;
+    padding-right: 20px;
 }
 
 a {
-    color: #ceaee6;
-    text-decoration: none; 
-
+    color: rgb(11, 1, 28);
+    font-weight: bold;
 }
-.parent {
-    position: relative;  
 
+.piccontainer {
+    position: relative;  
 }
 
 .flowers {
@@ -48,10 +47,10 @@ a {
 .self {
     width: 18%;
     position: absolute;
-    top: 50px;
+    top: 70px;
     left: 50px;
-    border: 8px solid #ceaee6;
-    border-style: double;
+    border: 2px solid #01140b;
+    border-style: solid;
 }
 
 .subtitles {
@@ -60,16 +59,90 @@ a {
     right: 45px;
     color: #ceaee6;
     font-size: 30px;
-    font-family:Garamond, 'Times New Roman', Times, serif
+    font-family:Garamond, 'Times New Roman', Times, serif;
+}
+
+main {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    background-color: rgb(11, 1, 28);
+    /* position: relative */
+}
+
+h2 {
+    /* padding-top: 50px; */
+    color:#ceaee6
+}
+
+#about {
+    display: flex;
+}
+
+#about h2 {
+    text-align: center;
+    width: 50%;
+    margin-top: 3rem;
+}
+
+.para {
+    border-left: 2px solid #ceaee6;
+}
+
+.para p {
+    margin: 20px 0px 40px 0px;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: #ceaee6;
+    line-height: 35px;
+}
+
+#work {
+    display: flex;
+}
+
+#work h2 {
+    text-align: center;
+    width: 18%;
+    margin-top: 3rem;
+}
+
+#work .images {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    
+} 
+/*  
+#work .images {
+    /* object-fit: cover; */
+    /* display: flex; */
+   
+/* } */
+
+#work .smallimages  {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #surf {
-    width: 65%;
-    height: 500px;
+    width: 70%;
+    height: 465px;
+    margin-top: 5rem;
 }
 
 .small {
-    width: 40%;
-    height: 200px
+    width: 457px;
+    height: 150px;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
 }
 
+ footer {
+     background-color: rgb(11, 1, 28);
+ }
+    
+    
+/*  */
+/* @media (mid-width: 769px) */
