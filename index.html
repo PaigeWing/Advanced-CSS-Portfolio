@@ -12,13 +12,15 @@
     <header class="header">
         <h1>Paige Wing</h1>
         <ul>
-            <li><a href="about-me">About Me</a></li>
-            <li><a href="work">Work</a></li>
-            <li><a href="contact-me">Contact Me</a></li>
-            <li><a href="resume">Resume</a></li>
-          </ul>
+          <div id="menu">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </div>
+        </ul>        
+    </header>
     
-    <section class="piccontainer" >
+    <section class="piccontainer">
         <img src="images/purple darkness.jpg" alt="Top Section Background" class="flowers">
         <img src="images/Placeholder-Image.jpg" alt="Self Portrait" class="self">
         <h2 class="subtitles">“Some days you’re the bird. Some days you’re the statue.”</h2>
@@ -45,28 +47,42 @@
     <section id="work">
       <h2>Work</h2>
     < <div class="images">
-      <div>
+      <div class="container1">
         <img src="images/surf.jpg" alt="Surf Report" id="surf">
+        <div class="box">Surf Report- MERN Stack</div>
       </div>
         <div class="smallimages">
+        <div class="container2">
           <img src="images/led.jpg" alt="LED Wall" class="small">
-          <img src="images/calculator.jpg" alt="Calculator" class="small">
-          <img src="images/puzzle.jpg" alt="Pastel Puzzels" class="small">
-          <img src="images/horizon.jpg" alt="Horiseon" class="small">
+          <div class="box">LED Wall- Node/loT</div>
         </div>
-    </div>
-    </section>
+        <div class="container3">
+          <img src="images/calculator.jpg" alt="Calculator" class="small">
+          <div class="box">Calculator- React/JavaScript/CSS</div>
+        </div>
+        <div class="container4">
+          <img src="images/puzzle.jpg" alt="Pastel Puzzels" class="small">
+          <div class="box">Pastel Puzzels- MERN Stack</div>
+        </div>
+        <div class="container5">
+          <img src="images/horizon.jpg" alt="Horiseon" class="small">
+          <div id="box"><a href="https://paigewing.github.io/01ch-horiseon-refactor/">Horiseon- HTML/CSS</a></div>
+        </div>
+        </div>
+      </div>
+      </div>
+    </section>  
   </main>
   <footer>
-    <aside class="contact">
+    <section id="contact">
       <h2>Contact Me</h2>
-    </aside>
-    <section class="info">
+    <div class="info">
       <ul>
-        <li>555.555.5555</li>
-        <li>paige_wing@aol.com</li>
-        <li><a href="https://www.github.com/PaigeWing">GitHub</a></li>
+        <li id="phone">555.555.5555</li>
+        <li id="email">paige_wing@aol.com</li>
+        <li id="git"><a href="https://www.github.com/PaigeWing">GitHub</a></li>
       </ul>
+    </div>
     </section>
   </footer>
   
