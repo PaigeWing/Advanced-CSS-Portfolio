@@ -9,8 +9,7 @@
     color: rgb(11, 1, 28);
     font-family: Garamond, 'Times New Roman', Times, serif; 
     padding-top: 15px;
-    overflow:auto;
-    
+    overflow: auto;    
 }
 
 .header h1 {
@@ -21,38 +20,38 @@
 
 .header ul {
     float: right;
+    padding-bottom: 10px;
 } 
 
 .header ul li {
     font-size: 24px;
     display: inline;
-    padding-bottom: 10px;
     padding-right: 20px;
-    background-color: rgb(242, 237, 249);  
+}
+
+#menu a {
+    color: rgb(11, 1, 28);
 }
 
 .piccontainer {
-    position: relative;  
-}
-
-.flowers {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    position: relative;
+    height: 300px;
+    background-image: url("images/purple darkness.jpg"); 
+    background-size: cover;
 }
 
 .self {
-    width: 18%;
-    position: absolute;
-    top: 35px;
-    left: 50px;
     border: 2px solid #01140b;
     border-style: solid;
+    height: 250px;
+    width: 250px;
+    padding-left: 30px;
+    padding-top: 30px;
 }
 
 .subtitles {
-    position: absolute;
-    bottom: 50px;
-    right: 45px;
     color: #ceaee6;
     font-size: 30px;
     font-family:Garamond, 'Times New Roman', Times, serif;
@@ -178,29 +177,29 @@ h2 {
      padding-top: 5rem;
  }
 
+ #contact {
+    display: flex;
+ }
+
 #contact h2 {
     text-align: center;
     width: 13.5%;
     border-right: 2px solid #ceaee6;
     padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.info ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 90px;
 }
 
 .info ul li {
     color: #ceaee6;
     font-size: 24px;
-    display: inline;
-}
-
-#phone {
-    padding: 0px 50px 0px 200px;
-}
-
-#email {
-    padding: 0px 50px;
-}
-
-#git {
-    padding: 0px 50px;
+    line-height: 2rem;
 }
 
 a {
@@ -208,10 +207,6 @@ a {
     font-weight: bold;    
 }
 
-@media screen and (min-width: 1020px) {
+@media screen and (min-width 480px) {
    .subtitles {
-     display: flex;
-     flex-wrap: wrap;
-   }
-   
-}
+  
